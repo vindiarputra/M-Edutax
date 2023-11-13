@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InklusiKhatolik"
+    android:background="@color/blueDark">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <!--<TextView
+                android:id="@+id/welcometext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome"
+                android:textSize="40sp"
+                android:textColor="#000000"
+                android:paddingTop="40dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>-->
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/slider"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="310dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                app:iss_auto_cycle="true"
+                app:iss_corner_radius="10"
+                app:iss_delay="0"
+                app:iss_error_image="@drawable/backdrop"
+                app:iss_period="1000"
+                app:iss_placeholder="@drawable/backdrop" />
+
+            <ImageView
+                android:layout_width="1000dp"
+                android:layout_height="560dp"
+                android:src="@drawable/halfrounded"
+                android:layout_below="@id/slider"
+                />
+            <TextView
+                android:id="@+id/menuutama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/slider"
+                android:fontFamily="@font/poppins_medium"
+                android:paddingLeft="20dp"
+                android:paddingTop="40dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="5dp"
+                android:text="Agama Katholik"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/menuutama"
+                android:fontFamily="@font/poppins_medium"
+                android:paddingLeft="20dp"
+                android:paddingBottom="10dp"
+                android:text="Pelajari lebih lanjut mengenai inklusi dalam agama katholik"
+                android:textColor="#B2B2B2"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/roundedstyle"
+                android:backgroundTint="@color/blueDark"
+                android:text="@string/SAP"
+                android:textColor="#ffff" />
+
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="340dp"
+                android:layout_centerHorizontal="true"
+                android:layout_height="50dp"
+                android:layout_below="@+id/button1"
+                android:layout_margin="10dp"
+                android:text="@string/materi"
+                android:textColor="#ffff"
+                android:background="@drawable/roundedstyle"
+                android:backgroundTint="@color/blueDark"/>
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="340dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/button2"
+                android:layout_margin="10dp"
+                android:layout_height="50dp"
+                android:text="@string/video"
+                android:textColor="#ffff"
+                android:background="@drawable/roundedstyle"
+                android:backgroundTint="@color/inactive"/>
+
+            <!--<Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/button3"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/roundedstyle"
+                android:backgroundTint="@color/blueDark"
+                android:text="@string/penugasan"
+                android:textColor="#ffff" />-->
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="340dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/button3"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/roundedstyle"
+                android:backgroundTint="@color/blueDark"
+                android:text="Kuis "
+                android:textColor="#ffff" />
+
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

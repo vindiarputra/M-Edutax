@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="inactive">#A4A4A4</color>
+    <color name="active">#ffffff</color>
+    <color name="blueLight">#3F4E8B</color>
+    <color name="blueDark">#1B2758</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="colorCardBackground">#F15A59</color>
+
+
+    background-image: radial-gradient(color1, color2, color3);
+</resources>

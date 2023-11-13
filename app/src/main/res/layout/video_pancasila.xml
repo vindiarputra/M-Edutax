@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VideoPancasila"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtinklusi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:padding="20dp"
+        android:text="Video Pendidikan Pancasila"
+        android:textColor="#000000"
+        android:textSize="30sp" />
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_player_view"
+        android:layout_below="@id/txtinklusi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:videoId="OXcVmh4h5NA"
+        app:autoPlay="true"
+        app:showFullScreenButton="true" />
+    </RelativeLayout>
+
+
+</LinearLayout>

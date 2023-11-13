@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KuisIslamHard">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/idTVQuestionAttempted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:text="Number of Questions"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#0C0B0B"
+                android:textSize="20sp"
+                />
+
+            <TextView
+                android:id="@+id/idTVQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/idTVQuestionAttempted"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:text="Question"
+                android:textAlignment="center"
+                android:textColor="#0B0909"
+                android:textSize="25sp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="120dp"
+                android:layout_below="@id/idTVQuestion"
+                android:orientation="vertical"
+                >
+
+                <Button
+                    android:id="@+id/idBtnOption1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/blueDark"
+                    android:padding="4dp"
+                    android:text="Option 1"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/idBtnOption2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/blueDark"
+                    android:padding="4dp"
+                    android:text="Option 2"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/idBtnOption3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/blueDark"
+                    android:padding="4dp"
+                    android:text="Option 3"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+                <Button
+                    android:id="@+id/idBtnOption4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/blueDark"
+                    android:padding="4dp"
+                    android:text="Option 4"
+                    android:textAllCaps="false"
+                    android:textColor="#FFFFFF" />
+
+
+
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/idTVQuestion">
+
+                <ImageView
+                    android:id="@+id/sadImageView"
+                    android:layout_width="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/sad"
+                    android:layout_gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:visibility="gone"
+                    android:animation="@anim/fade_in_out"
+                    />
+
+                <ImageView
+                    android:id="@+id/happyImageView"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/happy"
+                    android:visibility="gone"
+                    android:animation="@anim/fade_in_out"
+                    />
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

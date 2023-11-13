@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tc">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".fourthAbout"
+            android:exported="true" />
+        <activity
+            android:name=".thirdAbout"
+            android:exported="true" />
+        <activity
+            android:name=".fifthAbout"
+            android:exported="true" />
+        <activity
+            android:name=".fourthActivity"
+            android:exported="true" />
+        <activity
+            android:name=".thirdActivity"
+            android:exported="true" />
+        <activity
+            android:name=".secondAbout"
+            android:exported="true" />
+        <activity
+            android:name=".firstAbout"
+            android:exported="true" />
+        <activity
+            android:name=".activityAbout1"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityGameHard"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityGameMedium"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityGameEasy"
+            android:exported="true" />
+        <activity
+            android:name=".KuisIslam"
+            android:exported="true" />
+        <activity
+            android:name=".KuisIslamEasy"
+            android:exported="true" />
+        <activity
+            android:name=".KuisIslamMedium"
+            android:exported="true" />
+        <activity
+            android:name=".KuisIslamHard"
+            android:exported="true" />
+
+        <activity android:name=".PptKewarganegaraan" />
+        <activity android:name=".PenugasanPancasila" />
+        <activity android:name=".VideoPancasila" />
+        <activity android:name=".PenugasanKristen" />
+        <activity android:name=".VideoKristen" />
+        <activity android:name=".PenugasanKhatolik" />
+        <activity android:name=".VideoKhatolik" />
+        <activity android:name=".PenugasanKewarganegaraan" />
+        <activity android:name=".PenugasanIslam" />
+        <activity android:name=".PenugasanHindu" />
+        <activity android:name=".PenugasanBudha" />
+        <activity android:name=".VideoKewarganegaraan" />
+        <activity android:name=".VideoIslam" />
+        <activity android:name=".VideoHindu" />
+        <activity android:name=".VideoBudha" />
+        <activity android:name=".VideoBahasaindonesia" />
+        <activity android:name=".MateriPancasila" />
+        <activity android:name=".MateriKristen" />
+        <activity android:name=".MateriKhatolik" />
+        <activity android:name=".MateriKewarganegaraan" />
+        <activity android:name=".MateriIslam" />
+        <activity android:name=".MateriHindu" />
+        <activity android:name=".SapKristen" />
+        <activity android:name=".SapKhatolik" />
+        <activity android:name=".SapKewarganegaraan" />
+        <activity android:name=".SapPancasila" />
+        <activity android:name=".MateriBudha" />
+        <activity android:name=".PenugasanBahasaindonesia" />
+        <activity android:name=".MateriBahasaindonesia" />
+        <activity android:name=".SapIslam" />
+        <activity android:name=".SapHindu" />
+        <activity android:name=".SapBudha" />
+        <activity android:name=".SapBahasaindonesia" />
+        <activity android:name=".InklusiPancasila" />
+        <activity android:name=".InklusiKewarganegaraan" />
+        <activity android:name=".InklusiIslam" />
+        <activity android:name=".InklusiKristen" />
+        <activity android:name=".InklusiKhatolik" />
+        <activity android:name=".InklusiBahasaindonesia" />
+        <activity android:name=".InklusiHindu" />
+        <activity android:name=".InklusiBudha" />
+        <activity android:name=".ActivityInklusi" />
+        <activity android:name=".ActivityGame" />
+        <activity android:name=".ActivityKomik" />
+        <activity android:name=".ActivityAbout" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

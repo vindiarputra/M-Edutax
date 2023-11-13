@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#1B2758" /> <!-- Replace "#000080" with your desired dark blue color code -->
+    <corners android:radius="8dp" />
+</shape>

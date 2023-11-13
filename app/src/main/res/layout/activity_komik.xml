@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityKomik"
+    android:layout_marginBottom="20dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/txtkomik"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/komikpajaktxt"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:padding="20dp"/>
+
+        <ImageView
+            android:id="@+id/komik13"
+            android:layout_width="match_parent"
+            android:layout_height="378dp"
+            android:layout_below="@+id/txtkomik"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/komik13"
+            android:contentDescription="@string/display"/>
+
+        <ImageView
+            android:id="@+id/komik12"
+            android:layout_width="match_parent"
+            android:layout_height="378dp"
+            android:layout_below="@+id/komik13"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/komik12"
+            android:contentDescription="@string/display"/>
+
+        <ImageView
+            android:id="@+id/komik11"
+            android:layout_width="match_parent"
+            android:layout_height="378dp"
+            android:layout_below="@+id/komik12"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/komik11"
+            android:contentDescription="@string/display"/>
+
+        <ImageView
+            android:id="@+id/komik10"
+            android:layout_width="match_parent"
+            android:layout_height="378dp"
+            android:layout_below="@+id/komik11"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/komik10"
+            android:contentDescription="@string/display"/>
+
+        <ImageView
+            android:id="@+id/komik9"
+            android:layout_width="match_parent"
+            android:layout_height="378dp"
+            android:layout_below="@+id/komik10"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/komik9"
+            android:contentDescription="@string/display"/>
+
+        <ImageView
+            android:id="@+id/komik8"
+            android:layout_width="match_parent"
+            android:layout_height="378dp"
+            android:layout_below="@+id/komik9"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/komik8"
+            android:contentDescription="@string/display"/>
+
+        <ImageView
+            android:id="@+id/komik7"
+            android:layout_width="match_parent"
+            android:layout_height="378dp"
+            android:layout_below="@+id/komik8"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/komik7"
+            android:contentDescription="@string/display"/>
+
+        <ImageView
+            android:id="@+id/komik6"
+            android:layout_width="match_parent"
+            android:layout_height="378dp"
+            android:layout_below="@+id/komik7"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/komik6"
+            android:contentDescription="@string/display"/>
+
+        <ImageView
+            android:id="@+id/komik5"
+            android:layout_width="match_parent"
+            android:layout_height="378dp"
+            android:layout_below="@+id/komik6"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/komik5"
+            android:contentDescription="@string/display"/>
+
+        <ImageView
+            android:id="@+id/komik4"
+            android:layout_width="match_parent"
+            android:layout_height="378dp"
+            android:layout_below="@+id/komik5"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/komik4"
+            android:contentDescription="@string/display"/>
+
+        <ImageView
+            android:id="@+id/komik3"
+            android:layout_width="match_parent"
+            android:layout_height="378dp"
+            android:layout_below="@+id/komik4"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/komik3"
+            android:contentDescription="@string/display"/>
+
+        <ImageView
+            android:id="@+id/komik2"
+            android:layout_width="match_parent"
+            android:layout_height="378dp"
+            android:layout_below="@+id/komik3"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/komik2"
+            android:contentDescription="@string/display"/>
+        <ImageView
+            android:id="@+id/komik1"
+            android:layout_width="match_parent"
+            android:layout_height="378dp"
+            android:layout_below="@+id/komik2"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/komik1"
+            android:contentDescription="@string/display" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/endpage"
+                android:fontFamily="@font/poppins_medium"
+                android:padding="20dp"
+                android:textColor="#000000"
+                android:layout_below="@+id/komik1"/>
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

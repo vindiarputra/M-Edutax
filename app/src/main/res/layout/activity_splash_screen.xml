@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashcreenedu"
+    tools:context=".SplashScreen">
+
+        <!--<ImageView
+            android:id="@+id/tc"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:backgroundTint="#FFFFFF"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logotc"
+            android:contentDescription="@string/display" />-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="86dp"-->
+<!--        android:layout_above="@+id/tc"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_marginBottom="100dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginStart="40dp"-->
+<!--        android:layout_marginEnd="40dp"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:gravity="center">-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="90dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:contentDescription="@string/display"-->
+<!--            android:src="@drawable/taxcenterlogo"-->
+<!--            android:layout_margin="5dp"/>-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="90dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:contentDescription="@string/display"-->
+<!--            android:src="@drawable/logoddtc"-->
+<!--            android:layout_margin="5dp"-->
+<!--            />-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="90dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:contentDescription="@string/display"-->
+<!--            android:src="@drawable/logosadarpajak"-->
+<!--            android:layout_margin="5dp"/>-->
+
+<!--        &lt;!&ndash;<ImageView-->
+<!--            android:layout_width="135dp"-->
+<!--            android:layout_height="80dp"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentTop="true"-->
+<!--            android:layout_marginStart="135dp"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:layout_marginEnd="26dp"-->
+<!--            android:contentDescription="@string/display"-->
+<!--            android:src="@drawable/logoddtc" />-->
+
+<!--        <ImageView-->
+<!--            android:layout_width="96dp"-->
+<!--            android:layout_height="87dp"-->
+<!--            android:layout_below="@+id/tc"-->
+<!--            android:layout_alignParentEnd="true"-->
+<!--            android:layout_marginStart="34dp"-->
+<!--            android:layout_marginTop="-465dp"-->
+<!--            android:layout_marginEnd="30dp"-->
+<!--            android:contentDescription="@string/display"-->
+<!--            android:src="@drawable/logosadarpajak" />&ndash;&gt;-->
+<!--    </LinearLayout>-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:srcCompat="@drawable/edutaxbiru" />-->
+
+</RelativeLayout>
+
+

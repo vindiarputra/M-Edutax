@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">TC</string>
+    <!--about-->
+    <string name="finish">Finish</string>
+
+    <string name="next">Next</string>
+    <string name="back">back</string>
+    <string name="back_home">back home</string>
+
+    <!--main activity-->
+    <string name="welcome">Welcome</string>
+    <string name="inklusi_pajak">Pengajaran Inklusi Pajak</string>
+    <string name="komik_pajak">Komik Pajak</string>
+    <string name="games_pajak">Kuis Pajak</string>
+    <string name="tentang_pajak">Apa itu Pajak?</string>
+
+    <!--inklusi-->
+    <string name="reconstruction">Page is Not Available</string>
+    <string name="inklusipajak">Inklusi Pajak</string>
+    <string name="bahasaindonesia">Bahasa Indonesia</string>
+    <string name="pendidikanpancasila">Pendidikan Pancasila</string>
+    <string name="pendidikankewarganegaraan">Pendidikan Kewarganegaraan</string>
+    <string name="agama">Agama</string>
+    <string name="budha">BUDHA</string>
+    <string name="islam">ISLAM</string>
+    <string name="kristen">KRISTEN</string>
+    <string name="khatolik">KHATOLIK</string>
+    <string name="hindu">HINDU</string>
+
+    <!--detail inklusi-->
+    <string name="SAP">RPS Inklusi</string>
+    <string name="materi">Materi Inklusi</string>
+    <string name="video">Video Inklusi</string>
+    <string name="penugasan">Tugas Inklusi</string>
+    <string name="agamabudha">Agama Budha</string>
+    <string name="agamahindu">Agama Hindu</string>
+    <string name="agamaislam">Agama Islam</string>
+    <string name="agamakhatolik">Agama Khatolik</string>
+    <string name="agamakristen">Agama Kristen</string>
+    <string name="komikpajaktxt">Komik Pajak</string>
+    <string name="endpage">yah komiknya habis</string>
+    <string name="display">display</string>
+    <string name="menuutamatxt">Menu Utama</string>
+    <string name="infotxt">Info Aplikasi</string>
+    <string name="videobahasaindonesia">Video Bahasa Indonesia</string>
+
+    <!--penugasan-->
+    <string name="tugasbahasa">Silahkan kalian membuat karangan ilmiah dalam bentuk Argumentasi, Eksposisi dan Persuasi secara berkelompok dengan tema "Pajak Diperlukan dalam Kehidupan Manusia"</string>
+    <string name="tugasbudha"></string>
+    <string name="tugashindu"></string>
+    <string name="tugasagama">Orang dengan penghasilan di atas Rp 5 Miliar kena Pajak 35%,  Jawab pertanyaan dibawah ini</string>
+    <string name="tugasagamaa">a. Setujukah dengan opini diatas? Sebutkan dan jelaskan (minimal 250 kata)</string>
+    <string name="tugasagamab">b. Apa sajakah pengaruh pajak dengan Ekonomi Negara? (minimal 250 kata)</string>
+
+    <string name="tugaskewarganegaraan">Merefleksikan bahan ajar pada Bab V, mahasiswa diharapkan membuat paper singkat 2-3 halaman tentang pandangan agama mengenai wajib pajak di NRI, (diharapkan mengerjakan sesuai dengan ajaran agama masing-masing).</string>
+    <string name="tugaskhatolik"></string>
+    <string name="tugaskristen"></string>
+    <string name="tugaspancasila1">Jelaskan apa hubungan antara Pajak dengan Pancasila!</string>
+    <string name="tugaspancasila2">Bagaimana implementasi dari sila ke-5 dalam hal pembangunan yang bersumber dari pajak di Indonesia.</string>
+
+    <!--card info-->
+    <string name="infotitle">EDuTAx V1.0</string>
+    <string name="infowelcome">Selamat Datang di Aplikasi EDuTAx  V1.0</string>
+    <string name="infodetail1">EduTax adalah aplikasi dibuat dalam rangka membantu mahasiswa memahami tentang  Inklusi Kesadaran Pajak pada matakuliah MKWU, sehingga belajar Inklusi Kesadaran Pajak lebih menarik.</string>
+    <string name="infodetail2">EduTax dibuat oleh Tim Pengembangan Tax Center Universitas Gunadarma. Jika pengguna Aplikasi ingin menyampaikan masukan atau pertanyaan dapat menghubungin</string>
+    <string name="infocontact">Tim EDuTAx di email: taxcenter.ug@gmail.com</string>
+    <string name="materi_kewarganegaraan">Materi Kewarganegaraan</string>
+    <string name="buku">Buku</string>
+    <string name="ppt">PPT</string>
+    <string name="ppt_kewarganegaraan">PPT Kewarganegaraan</string>
+    <string name="kuis_pendidikan_agama_islam">Kuis Pendidikan Agama Islam</string>
+    <string name="mudah">Mudah</string>
+    <string name="sedang">Sedang</string>
+
+</resources>
