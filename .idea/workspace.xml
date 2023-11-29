@@ -9,7 +9,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f29a0f35-7fb7-4dd5-a517-b6b056fc8bcc" name="Changes" comment="" />
+    <list default="true" id="f29a0f35-7fb7-4dd5-a517-b6b056fc8bcc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +29,11 @@
     <option name="KEY_ALIAS" value="m_edutax_key" />
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="wildan &lt;wildanal577@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -130,6 +137,14 @@
       <option name="presentableId" value="Default" />
       <updated>1699859196813</updated>
     </task>
+    <task id="LOCAL-00001" summary="Update Label Name App For Production">
+      <created>1701228183754</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701228183755</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,5 +157,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Update Label Name App For Production" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update Label Name App For Production" />
   </component>
 </project>
