@@ -55,6 +55,11 @@
           <theme>@style/AppTheme</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/materi_bahasaindonesia.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/materi_kewarganegaraan.xml">
         <config>
           <theme>@style/AppTheme</theme>
@@ -66,6 +71,11 @@
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/materi_kristen.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/sap_bahasaindonesia.xml">
         <config>
           <theme>@style/AppTheme</theme>
         </config>
@@ -136,25 +146,9 @@
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tc/InklusiBudha.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tc/InklusiBudha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tc/InklusiHindu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tc/InklusiHindu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tc/InklusiIslam.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tc/InklusiIslam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tc/InklusiKewarganegaraan.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tc/InklusiKewarganegaraan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tc/InklusiKhatolik.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tc/InklusiKhatolik.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tc/InklusiKristen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tc/InklusiKristen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tc/InklusiPancasila.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tc/InklusiPancasila.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tc/MateriBahasaindonesia.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tc/MateriBahasaindonesia.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tc/MateriBudha.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tc/MateriBudha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tc/MateriHindu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tc/MateriHindu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tc/MateriIslam.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tc/MateriIslam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tc/MateriKhatolik.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tc/MateriKhatolik.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tc/MateriKristen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tc/MateriKristen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tc/MateriPancasila.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tc/MateriPancasila.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tc/SapBahasaindonesia.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tc/SapBahasaindonesia.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tc/SapBudha.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tc/SapBudha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tc/SapHindu.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tc/SapHindu.java" afterDir="false" />
@@ -163,10 +157,23 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tc/SapKhatolik.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tc/SapKhatolik.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tc/SapKristen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tc/SapKristen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/tc/SapPancasila.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/tc/SapPancasila.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/materi_bahasaindonesia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/materi_bahasaindonesia.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/video_bahasaindonesia.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/video_bahasaindonesia.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/video_kewarganegaraan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/video_kewarganegaraan.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/video_kristen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/video_kristen.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/video_pancasila.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/video_pancasila.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/appcompat/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/cardview/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/constraintlayout/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/recyclerview/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/test/espresso/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/test/ext/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/androidx/viewpager2/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/android/material/group-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,36 +236,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
-    &quot;ApkExportedModule&quot;: &quot;TC.app&quot;,
-    &quot;BundleExportedModule&quot;: &quot;TC.app&quot;,
-    &quot;ExportBundle.BundlePathForTC.app&quot;: &quot;D:\\Project\\Edutax\\Edutax\\app&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Project/Edutax/playstore&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDK Location&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Android App.app.executor": "Run",
+    "ApkExportedModule": "TC.app",
+    "BundleExportedModule": "TC.app",
+    "ExportBundle.BundlePathForTC.app": "D:\\Project\\Edutax\\Edutax\\app",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Project/Edutax/playstore",
+    "project.structure.last.edited": "SDK Location",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "show.migrate.to.gradle.popup": "false"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ExportApk.BuildVariants&quot;: [
-      &quot;release&quot;
+  "keyToStringList": {
+    "ExportApk.BuildVariants": [
+      "release"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="TC.app" />
@@ -372,12 +379,12 @@
       <map>
         <entry key="com.tc.edutax">
           <value>
-            <CheckInfo lastCheckTimestamp="1742872572369" />
+            <CheckInfo lastCheckTimestamp="1742996076200" />
           </value>
         </entry>
         <entry key="com.tc.edutax.test">
           <value>
-            <CheckInfo lastCheckTimestamp="1742872572357" />
+            <CheckInfo lastCheckTimestamp="1742996076200" />
           </value>
         </entry>
       </map>
