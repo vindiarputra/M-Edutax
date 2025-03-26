@@ -21,15 +21,15 @@
         android:textColor="#000000"
         android:textSize="30sp" />
 
-    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-        android:id="@+id/youtube_player_view"
-        android:layout_below="@id/txtinklusi"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+<!--    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView-->
+<!--        android:id="@+id/youtube_player_view"-->
+<!--        android:layout_below="@id/txtinklusi"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
 
-        app:videoId="6XfpqVkySA4"
-        app:autoPlay="true"
-        app:showFullScreenButton="true" />
+<!--        app:videoId="6XfpqVkySA4"-->
+<!--        app:autoPlay="true"-->
+<!--        app:showFullScreenButton="true" />-->
     </RelativeLayout>
 
 
